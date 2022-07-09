@@ -1,0 +1,175 @@
+.dark {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: grayscale(1);
+  backdrop-filter: grayscale(1);
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 265px;
+}
+
+.cartBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+  position: relative;
+}
+
+.cartBox::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: lightgrey;
+
+  left: 0;
+  z-index: 1;
+}
+
+.cartInfoCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brandAndNameCart {
+  /* padding-bottom: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brandCart {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nameCart {
+  font-family: Raleway;
+  font-size: 30px;
+}
+
+.priceCart {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.imgAndBtns {
+  display: flex;
+  flex-direction: row;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.increase {
+  border: 1px solid black;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 26px;
+  transition: 0.2s linear color, 0.2s linear background-color;
+}
+
+.increase:hover {
+  color: white;
+  background-color: black;
+}
+
+.decrease {
+  border: 1px solid black;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 26px;
+  transition: 0.2s linear color, 0.2s linear background-color;
+}
+
+.decrease:hover {
+  color: white;
+  background-color: black;
+}
+
+.quantity {
+  font-size: 26px;
+  width: 100px;
+  align-self: center;
+}
+
+.finalInfo {
+  padding-left: 265px;
+}
+
+.finalInfo::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: lightgrey;
+
+  left: 0;
+  z-index: 1;
+}
+
+.cartClear {
+  border: 1px solid black;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear color, 0.2s linear background-color;
+  z-index: 2;
+}
+
+.cartClear:hover {
+  color: white;
+  background-color: black;
+  z-index: 2;
+}
+
+.tax {
+  font-size: 26px;
+}
+
+.quantityCart {
+  font-size: 26px;
+}
+
+.total {
+  font-size: 26px;
+}
+
+.cartOrder {
+  border: 1px solid black;
+  color: white;
+  background-color: #5ece7b;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear background-color;
+}
+
+.cartOrder:hover {
+  background-color: #45975b;
+}

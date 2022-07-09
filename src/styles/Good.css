@@ -1,0 +1,96 @@
+.dark {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: grayscale(1);
+  backdrop-filter: grayscale(1);
+}
+
+.goodPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding-left: 50px;
+}
+
+.extraImages {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallImages {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.baseImage {
+  width: 500px;
+  height: 500px;
+}
+
+.goodInfo {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.brandAndName {
+  padding-bottom: 30px;
+}
+
+.brand {
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.name {
+  font-family: Raleway;
+  font-size: 40px;
+}
+
+.priceTag {
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.price {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 24px;
+  padding-top: 20px;
+  overflow-y: scroll;
+}
+
+.btn {
+  border: 0;
+  height: 50px;
+  width: 250px;
+  color: white;
+  background: #5ece7b;
+}
+
+.notBtn {
+  border: 0;
+  height: 50px;
+  width: 250px;
+  color: white;
+  background: #5ece7b;
+  opacity: 0.5;
+}

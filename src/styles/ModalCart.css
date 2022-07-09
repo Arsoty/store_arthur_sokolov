@@ -1,0 +1,176 @@
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.cartModal {
+  position: fixed;
+  top: 80px;
+  left: 1550px;
+  z-index: 5;
+  background-color: white;
+}
+
+.titleModal {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cartBoxModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding-top: 40px; */
+  position: relative;
+}
+
+.cartBoxModal::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: lightgrey;
+
+  left: 0;
+  z-index: 1;
+}
+
+.cartInfoCartModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brandAndNameCartModal {
+  /* padding-bottom: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brandCartModal {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nameCartModal {
+  font-family: Raleway;
+  font-size: 20px;
+}
+
+.priceCartModal {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.imgAndBtnsModal {
+  display: flex;
+  flex-direction: row;
+}
+
+.baseImageModal {
+  width: 100px;
+  height: 100px;
+}
+
+.btnsModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.increaseModal {
+  border: 1px solid black;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  transition: 0.2s linear color, 0.2s linear background-color;
+}
+
+.increaseModal:hover {
+  color: white;
+  background-color: black;
+}
+
+.decreaseModal {
+  border: 1px solid black;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  transition: 0.2s linear color, 0.2s linear background-color;
+}
+
+.decreaseModal:hover {
+  color: white;
+  background-color: black;
+}
+
+.quantityModal {
+  font-size: 26px;
+  width: 50px;
+  align-self: center;
+}
+
+.finalInfoModal::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: lightgrey;
+
+  left: 0;
+  z-index: 1;
+}
+
+.totalModal {
+  font-size: 26px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cartCartModal {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear background-color, 0.2s linear color;
+}
+
+.cartCartModal:hover {
+  background-color: black;
+  color: white;
+}
+
+.cartOrderModal {
+  border: 1px solid black;
+  color: white;
+  background-color: #5ece7b;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear background-color;
+}
+
+.cartOrderModal:hover {
+  background-color: #45975b;
+}
